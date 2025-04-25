@@ -1,56 +1,70 @@
-# **Doctor Listing Page**
+# Getting Started with Create React App
 
-## **Overview**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a dynamic, client-side doctor listing web application developed as part of a campus assessment task for the Frontend Developer role. The objective was to build an intuitive, user-friendly interface where users can search for doctors, filter by specific criteria, and sort results, all while ensuring a seamless experience on the client side. The entire project was completed within a 3-hour timeframe.
+## Available Scripts
 
-## **Features**
+In the project directory, you can run:
 
-- **Autocomplete Search**:  
-  A search bar that instantly filters doctor names as you type, showing the top 3 matches in a dropdown. Selecting a suggestion or pressing Enter filters the doctor list accordingly.
+### `npm start`
 
-- **Dynamic Filtering**:  
-  - **Consultation Mode**: Users can choose between "Video Consult" or "In Clinic" options.
-  - **Specialties**: Users can select multiple specialties to filter the results by doctor specialties.
-  - **Sorting**: Sort the doctor list by **fees (ascending)** or **experience (descending)**.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Client-Side Logic**:  
-  All search, filtering, and sorting functionality happens entirely on the frontend, ensuring fast, real-time responses without needing backend interaction during these operations.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Simple, Intuitive UI**:  
-  The app is designed to be easy to use with a clean, minimalistic layout. The interface prioritizes user functionality, enabling quick and efficient doctor searches and filtering.
+### `npm test`
 
-## **How It Works**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. **Autocomplete Search**:  
-   As the user types a doctor’s name in the search bar, the app provides dynamic suggestions based on the top 3 matches. The list filters instantly when a suggestion is selected or when the user presses Enter.
+### `npm run build`
 
-2. **Filter Panel**:  
-   The filter panel includes:
-   - **Consultation Mode**: Select between Video Consult or In Clinic.
-   - **Specialties**: Choose multiple specialties from a list to filter doctors.
-   - **Sorting**: Sort doctors by either **fees** (ascending) or **experience** (descending).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. **API Integration**:  
-   The app fetches doctor data from a provided mock API, including doctor names, consultation modes, specialties, experience, and fees. All filtering and sorting operations are handled on the frontend.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-4. **Query Parameters**:  
-   The app uses URL query parameters to reflect selected filters and search terms. This ensures that filters persist across page navigation and improves the user experience when browsing back and forth.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## **Challenges Faced and Approach**
+### `npm run eject`
 
-With only 3 hours to complete the task, the focus was on delivering core functionality while maintaining performance. Key steps included:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- **Client-Side Filtering and Sorting**:  
-  All filtering and sorting logic was implemented on the client side to ensure a fast, responsive user experience.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **API Integration**:  
-  The data was successfully fetched from the mock API and rendered dynamically on the page, ensuring that the application was fully functional within the short timeframe.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- **Simplicity in Design**:  
-  The design was kept minimalistic and focused on providing the most essential features without overcomplicating the interface.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Thank you for reviewing this repo. This project demonstrates my ability to efficiently build functional frontend applications with clean user interfaces and dynamic client-side interactions under tight deadlines.
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
